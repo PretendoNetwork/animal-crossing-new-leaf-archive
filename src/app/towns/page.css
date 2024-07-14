@@ -1,0 +1,36 @@
+.skeleton-loader {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.skeleton {
+	background-color: #E0E0E0;
+	border-radius: 4px;
+	animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton-header {
+	height: 40px;
+}
+
+.skeleton-row {
+	height: 20px;
+}
+
+.skeleton-cell {
+	flex: 1;
+	height: 20px;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
