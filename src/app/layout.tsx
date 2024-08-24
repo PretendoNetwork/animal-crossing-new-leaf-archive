@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-import './globals.css';
+import '@/app/globals.css'; // TODO - This import sucks. Change it
 
 const inter = Inter({ subsets: ['latin'] });
 

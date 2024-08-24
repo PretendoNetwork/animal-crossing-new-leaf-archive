@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { countryIDToClassName } from '@/lib/utils';
-import '/node_modules/flag-icons/css/flag-icons.min.css'; // TODO - This import sucks
+import '/node_modules/flag-icons/css/flag-icons.min.css'; // TODO - This import sucks. Change it
 
 type Town = {
 	data_id: number;

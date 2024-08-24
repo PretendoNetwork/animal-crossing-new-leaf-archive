@@ -7,8 +7,8 @@ import { ArrowUpDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { DataTable } from '@/components/ui/data-table';
 import { countryIDToClassName } from '@/lib/utils';
-import './page.css';
-import '/node_modules/flag-icons/css/flag-icons.min.css';
+import '@/app/towns/page.css'; // TODO - This import sucks. Change it
+import '/node_modules/flag-icons/css/flag-icons.min.css'; // TODO - This import sucks. Change it
 
 type TownBasic = {
 	data_id: number;
