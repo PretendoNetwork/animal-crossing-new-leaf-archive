@@ -61,7 +61,6 @@ export function DataTable<TData, TValue>({
 	return (
 		<div>
 			<div className='flex items-center justify-end space-x-2 py-4'>
-				// TODO - These filters rely on columns defined elsewhere, should these be moved out?
 				<Input
 					placeholder='Filter town name...'
 					value={(table.getColumn('name')?.getFilterValue() as string) ?? ''}
