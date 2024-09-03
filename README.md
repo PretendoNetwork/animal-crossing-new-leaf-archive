@@ -1,3 +1,28 @@
+# Animal Crossing: New Leaf Archive
+
+Website for displaying the data from the [Animal Crossing: New Leaf Archive](https://archive.org/details/animal-crossing-new-leaf-dream-suite-archive). ***Not currently hosted, very WIP!***
+
+## TODO
+
+Currently only a subset of data is shown on the website. Additional data is likely inside the town data itself, however the structure of the town files is not currently known.
+
+- [ ] Home page (implemented, but very basic. Lacks design)
+- [x] Town list API
+- [x] Town info API
+- [x] Town list page
+- [ ] Town info page (implemented, but very basic. Lacks design)
+  - [x] Town name
+  - [x] Town uploader
+  - [x] Town upload date
+  - [x] Town update date
+  - [x] Town last visit date
+  - [x] Town visits
+  - [x] Town villagers list
+  - [x] Town versions list
+  - [ ] Town fruit
+  - [ ] Town map
+  - [ ] Town flag
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
