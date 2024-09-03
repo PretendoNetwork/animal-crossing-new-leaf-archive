@@ -113,6 +113,21 @@ const columns: ColumnDef<TownBasic>[] = [
 				</Button>
 			)
 		}
+	},
+	{
+		accessorKey: 'download_link',
+		header: '',
+		cell: ({ row }) => {
+			const dataID = row.getValue('data_id');
+			const version = row.getValue('version');
+			const href = `https://r2-acnl-public.pretendo.network/objects/${dataID}_v${version}.bin`;
+
+			return (
+				<Button asChild>
+					<Link href={href} target='_blank'>Download</Link>
+				</Button>
+			)
+		}
 	}
 ];
 
